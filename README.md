@@ -39,6 +39,14 @@ sudo git clone https://github.com/vatsalroot/Bucketpwn.git; sudo pacman -S paral
 ```
 
 
+## Usage
+
+```
+cd Bucketpwn
+sudo chmod +x bucketpwn.sh
+sudo ./bucketpwn.sh target
+```
+
 ## Example
 
 - Syntax : sudo ./bucketpwn.sh <target_company>
@@ -46,7 +54,6 @@ sudo git clone https://github.com/vatsalroot/Bucketpwn.git; sudo pacman -S paral
   <br>
   <img src="https://github.com/vatsalroot/Bucketpwn/raw/main/img/carbon.png" width="300px" </img>
 </h1>
-
 
 
 ## Warning!
