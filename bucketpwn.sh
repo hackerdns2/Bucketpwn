@@ -54,7 +54,7 @@ echo -e "\e[1m[+] Running Bash Parallel process, The output may reflect on RAW f
 echo -e "\e[0m"
 echo ""
 
-cat raw.txt | parallel -P0 -q curl -o /dev/null --silent --head --write-out '%{url_effective}: %{http_code}\n' | egrep ": 200|403"
+cat raw.txt | parallel -P10 -q curl -o /dev/null --silent --head --write-out '%{url_effective}: %{http_code}\n' | egrep ": 200|403"
 
 
 ## cleaning ##
