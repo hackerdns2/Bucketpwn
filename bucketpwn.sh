@@ -33,6 +33,8 @@ fi
 cat wordlist | while read line; do
   echo "http://"$TARGET"-"$line".s3.amazonaws.com"
   echo "http://"$TARGET$line".s3.amazonaws.com"
+  echo "http://"$line"-"$TARGET".s3.amazonaws.com"
+
 done > raw.txt
 
 
