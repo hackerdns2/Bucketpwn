@@ -38,7 +38,6 @@ done > raw.txt
 
 ## Simple Banner ##
 
-
 echo -e "\e[92m"
 echo ""
 echo "	┌┐ ┬ ┬┌─┐┬┌─┌─┐┌┬┐╔═╗╦ ╦╔╗╔  "
@@ -47,7 +46,6 @@ echo "	└─┘└─┘└─┘┴ ┴└─┘ ┴ ╩  ╚╩╝╝╚╝ B
 echo -e "\e[0m"
 
 ## Reading wordlist and printing ouput #
-
 
 echo ""
 echo -e "\e[1m[+] Running Bash Parallel process, The output may reflect on RAW format..."
@@ -61,7 +59,6 @@ cat raw.txt | parallel -P10 -q curl -o /dev/null --silent --head --write-out '%{
 
 raw=raw.txt
 trap 'rm -f $raw' EXIT
-
 
 ## Error message ##
 
