@@ -1,6 +1,6 @@
 # NOTE!!!
 
-AWS s3 buckets are no longer vulnerable by default. Still you can use this script to discover restricted buckets and check for permission misconfigs.
+AWS s3 buckets are no longer open by default. Still you can use this script to discover restricted buckets and check for permission misconfigs.
 
 
 # Bucketpwn
