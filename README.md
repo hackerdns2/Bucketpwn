@@ -14,13 +14,12 @@
 
 ## How it works?
 
-<b>Bucketpwn</b> is powerful bash script which uses bash parallel process to bruteforce s3 buckets. The script put together wordlist of more than 2000 comman prefix to make cracking process much healthier. 
+<b>Bucketpwn</b> is a simple and powerful bash script which uses bash parallel process along with curl to bruteforce s3 buckets. The script put together wordlist of more than 2000 comman prefix to make cracking process much healthier. 
 
 
 ## Requirements
 
 - Bash Parallel
-
 
 ## Installation 
 
