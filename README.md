@@ -58,8 +58,8 @@ sudo ./bucketpwn.sh target
 
 ## Warning!
 
-Firewall of amazon is insane, You won't get any result If you are using the same IP address for each scan. Please make sure to change your IP address after 2 to 3 scans. You can use VPN to change your IP, I suggest you to use ProtonVPN.
+You won't get any result If you are using the same IP address for each scan. Please make sure to change your IP address after 2 to 3 scans!
 
 ## Credits
 
-The wordlist which used to prefix the targets is created using the various open source projects. Million Thanks to the work done by all the amazing people of community.
+The wordlist which used to prefix the targets is created using the various open source projects. Million thanks to the work done by all the amazing people of community.
